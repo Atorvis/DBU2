@@ -1,0 +1,909 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Nunito+Sans:wght@400;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    max-width: 100%;
+
+
+}
+
+.active
+{
+    color: #101010;
+    font-weight: 500;
+    
+}
+
+header
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 30px;;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    background: #ffffff;
+   
+}
+
+
+header ul
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;   
+    position: absolute;
+    width: 700px;
+    height: 4px;
+    left: 650px;
+}
+
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    display: inline-block;
+    margin: 0 25px;
+    color: #6E7377;
+    text-decoration: none;
+}
+
+.DP img
+{
+    width: 140px;
+    height: 31px;
+    left: 35px;
+    position: relative;
+}
+
+/*Background*/
+.explore
+{
+    background-image: url('vector/Background.png');
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+/*
+section .color
+{
+    position: absolute;
+    filter: blur(364px);
+}
+
+section .color:nth-child(1)
+{
+    width: 941px;
+    height: 692.17px;
+    left: -330px;
+    top: 483.83px;
+    background: #24D5CB;
+}
+
+section .color:nth-child(2)
+{
+    width: 1075.7px;
+    height: 589.06px;
+    left: 900px;
+    background: #24D5CB;
+    transform: rotate(-118.01deg);
+}
+
+section .color:nth-child(3)
+{
+    width: 1075.7px;
+    height: 589.06px;
+    left: -552.79px;
+    top: 91.34px;
+    background: #24D5CB;
+    transform: rotate(-118.01deg);
+}
+*/
+/*Explore section*/
+ .building
+{
+    height: 768px;
+    color: #ffffff;
+    padding-top: 15rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.building h1{
+    font-size: 88px;
+    font-weight: 800;
+}
+
+.building p
+{
+    font-size: 18px;
+    padding: 25px 0 25px 328px;
+    width: 75%;
+    color: #969BA0;
+}
+
+.building .box
+{
+    padding: 17px 40px;
+    background: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    width: 259px;
+    height: 59px;
+    color: #101010;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*Our work section*/
+
+.container
+{
+    margin: 60px;
+    overflow: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.work, .work1
+{
+    width: 450px;
+    height: 170px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 15px;
+}
+
+.work h2, .work1 h2
+{
+    font-weight: 800;
+    font-size: 48px;
+    font-style: normal;
+    color: #101010;
+}
+
+.work p, .work1 p
+{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #6E7377;
+    line-height: 180%;
+}
+
+.container ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container ul li
+{
+    list-style: none;
+    float: left;
+    width: 525px;
+    height: 580px;
+    background: linear-gradient(157.88deg, #F6F6F9 14.45%, #E6E7EF 99.51%);
+    margin: 20px 10px 0px 10px;
+}
+
+.container ul li .title
+{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.container ul li .title h2
+{
+    font-weight: bold;
+    font-size: 32px;
+    color: #101010;
+   
+}
+
+.container ul li .title p
+{
+    font-size: 16px;
+    color: #6E7377;
+}
+
+.container ul li .content img
+{
+    width: 100%;
+    height: 454px;
+}
+
+.container ul li .content .fitbg
+{
+    width: 83.2%;
+    position: relative;
+    height: 415px;
+    margin: 39px;
+    left: 50px;
+}
+
+.container ul li .content .fitbg1
+{
+    width: 83.2%;
+    position: relative;
+    height: 415px;
+    margin: 39px;
+    left: 50px;
+}
+
+.View-all
+{
+    position: absolute;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid #101010;
+    width: 185px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 16px 56px;
+    left: calc(50% - 185px/2);
+}
+
+
+/*whatwedo section*/
+
+.whatwedobg
+{
+    margin-top: 300px;
+    background-image: url('vector/Group 9311.png');
+    width: 1349px;
+    height: 672px;
+}
+
+.whatwedo .todo h2
+{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 48px;
+    padding: 100px 0 20px 22px;
+}
+.whatwedo ul li .title 
+{
+    margin-top: -327px;
+}
+
+.whatwedo ul li
+{
+    list-style: none;
+    float: left;
+    width: 261px;
+    height: 390px;
+    margin: 0px 0px 0px 18px;
+    background: none;
+}
+
+.whatwedo .title img
+{
+    height: 50px;
+    width: 50px;
+    margin-left: -38px;
+}
+
+.whatwedo ul li .title h2
+{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: -38px;
+}
+.whatwedo ul li .title h3
+{
+    font-weight: normal;
+    font-size: 18px;
+    margin: 35px 0 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #969BA0;
+    width: 210px;
+}
+
+.whatwedo .vertical-line
+{
+    width: 1px;
+    margin-top: 174px;
+    height: 180px;
+    background-color: rgba(150, 155, 160, 0.3);;
+}
+
+
+/*trusted section*/
+
+.trusted .brands h2
+{
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.trusted ul li
+{
+    list-style: none;
+    float: left;
+    width: 259px;
+    height: 123px;
+    left: 2%;
+    position: relative;
+    margin: 20px 20px 20px 0px;
+    background: none;
+    border: 1px solid #DFE1EC;
+}
+
+.trusted ul li .fitbg2
+{
+    height: 33px;
+    width: 130px;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trusted ul li .fitbg3
+{
+    height: 60px;
+    width: 80px;
+    
+
+    position: absolute;
+    left: 74px;
+    top: 19px;
+    
+}
+
+/*Our What Clients Says*/
+.clients
+{
+    background-color: #F9F9FB;
+    padding: 9rem;
+    padding-left: 12rem;
+    height: 625px;
+    
+}
+.clients h2
+{
+    color: #101010;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.clients p
+{
+    font-size: 20px;
+    line-height: 180%;
+    color: #101010;
+    width: 840px;
+    position: absolute;
+    padding-top: 80px;
+    
+}
+
+
+.clients .fitbg4
+{
+    width: 38px; 
+    height: 33px; 
+    position: absolute;
+}
+
+.clients .fitbg5
+{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    margin-top: 250px;
+}
+
+.clients h3
+{
+    width: 200px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 180%;
+    color: #101010;
+    padding-top: 265px;
+    left: 325px;
+}
+
+.clients h4
+{
+    font-size: 18px;
+    line-height: 180%;
+    color: #6E7377;
+    position: absolute;
+    width: 213px;
+    padding-top: 290px;
+    left: 325px;
+}
+
+
+.pagination
+{
+    padding: 30px 0;
+    position: absolute;
+    margin-top: 300px;
+    right: 160px;
+   
+}
+  
+.pagination ul{
+    margin: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+  
+.pagination ul li
+{
+    border: 1px solid #101010;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.pagination a
+{
+    display: inline-block;
+    padding: 10px 18px;
+    color: #222;
+}
+  
+.p1 a
+{
+    width: 12px;
+    height: 12px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+    margin-right: 10px;
+}
+  
+.p1 a.is-active
+{
+    background-color: #101010;
+    border-radius: 100%;
+    color: #fff;
+}
+
+
+/*Social media*/
+
+
+.social-media
+{
+    height: 50px;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+.social-media ul
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 1000px;
+    left: 160px;
+    height: 4px;
+    justify-content: space-between;
+    
+}
+
+.social-media ul li
+{
+    position: relative;
+    list-style: none;
+}
+
+.social-media ul li a
+{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    margin: 0 25px;
+    color: rgba(16, 16, 16, 0.24);
+    text-decoration: none;
+}
+
+footer 
+{
+    
+    height: 410px;
+    width: 100%;
+    background-color: #101010;
+    color: #fff;
+    padding: 82px 132px 30px 132px;
+}
+
+footer h1
+{
+    width: 440px;
+    height: 88px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 130%;   
+    letter-spacing: -0.01em;
+}
+
+footer h2
+{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    padding-top: 15px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 33px;
+    text-decoration-line: underline;
+
+}
+
+footer .icon
+{
+    right: 102px;
+    margin-top: -130px;
+    position: absolute;
+}
+
+footer .icon i
+{
+    background: rgba(250, 250, 250, 0.08);
+    color: #E2E2E2;
+    padding: 15px;
+    font-size: 15px;
+    margin-right: 25px;
+    border-radius: 100%;
+}
+
+footer hr
+{
+    top: 65px;
+    position: relative;
+    color: rgba(150, 155, 160, 0.3);;
+}
+
+footer .copyright p
+{
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    line-height: 22px;
+    color: #9F9F9F;
+    top: 86px;
+}
+
+
+/*Start our team*/
+.row
+{
+    position: relative;
+    width: 100%;
+    height: 665px;
+    color: #ffffff;
+    padding-top: 10rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.explore .row .col-sm-6 img
+{
+    height: 400px;
+    width: 52%;
+    display: flex;
+    position: relative;
+    margin-left: 100px;
+
+}
+.explore .row .col-sm-6 h2
+{
+    width: 240px;
+    margin-left: 100px;
+    margin-top: 12px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18%;
+    color: #ffffff;
+}
+
+.explore .row .col-sm-6 h3
+{
+    margin-left: 100px;
+    margin-top: 12px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #979797;
+}
+.explore .row .col-sm-6 p
+{
+    width: 570px;
+    display: flex;
+    position: relative;
+    color: #979797;
+}
+
+.team ul li
+{
+    list-style: none;
+    float: left;
+    width: 328px;
+    height: 455px;
+    background: none; 
+    margin: 20px 0px 0px 44px;
+}
+
+.team ul li .content img
+{
+    width: 328px;
+    height: 405px;
+}
+.team ul li .title1
+{
+    display: flex;
+    padding: 15px 0px 0px 0px;
+}
+
+.team ul li .title1 h2
+{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    margin-right: 5px;
+}
+.team ul li .title1 span
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.team ul li .red img
+{
+    background: linear-gradient(157.88deg, #F9F7F6 14.45%, #EFEAE6 99.51%) !important;
+}
+.team ul li .grey img
+{
+    background: linear-gradient(157.88deg, #F6F6F9 14.45%, #E6E7EF 99.51%) !important;
+}
+
+.whatwedo1bg
+{
+    margin-top: 160px;
+    background-image: url('vector/bg.png');
+    width: 1349px;
+    height: 1000px;
+}
+
+.whatwedo1 .todo h2
+{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 48px;
+    padding: 100px 0 20px 22px;
+}
+.whatwedo1 ul li .title 
+{
+    margin-top: -327px;
+}
+
+.whatwedo1 ul li
+{
+    list-style: none;
+    float: left;
+    width: 537px;
+    height: 333px;
+    margin: 0px 0px 20px 20px;
+    padding: 35px;
+    background: rgba(16, 16, 16, 0.44);;
+}
+
+.whatwedo1 .title1 img
+{
+    height: 50px;
+    width: 50px;
+}
+
+.whatwedo1 .title1 h2
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.whatwedo1 .title1 p
+{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7A8085;
+    margin-top: 25px;
+}
+
+/*project*/
+.crafting
+{
+    padding-top: 10rem;
+}
+
+.crafting h2
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 88px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #101010;
+
+}
+
+.crafting p
+{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #6E7377;
+    width: 515px;
+    height: 60px;
+    margin: 35px 0 35px 0;
+    left: 410px;
+    position: relative;
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+}
+
+.crafting ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.crafting ul li
+{
+    position: relative;
+    list-style: none;
+}
+
+.crafting ul li a
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    margin: 0 25px;
+    color: #6E7377;
+    text-decoration: none;
+}
+.crafting ul li.active a
+{
+    color: #101010 !important;
+}
+.container ul li.red
+{
+    background: linear-gradient(157.88deg, #F9F6F6 14.45%, #F5F0EF 99.51%) !important;
+}
+
+.featured h1{
+    font-size: 88px;
+    font-weight: 800;
+}
+
+.trusted .great h2,
+.featured .great h2
+{
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 50px;
+    line-height: 120%;
+}
+
+.featured .great p
+{
+    width: 900px;
+    font-size: 18px;
+    line-height: 180%;
+    color: #6E7377;
+}
+
+.featured ul li
+{
+    width: 251px;
+    text-align: center;
+    border: 1px solid #DFE1EC;
+    height: 120px;
+    background: #FCFCFD;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #99A0AE;
+}
+
+.container .featured ul
+{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.building ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.building ul li
+{
+    padding: 30px;
+}
+.building ul li h2
+{
+    
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 130%;
+    color: #ffffff;
+}
+
+.building ul li h3
+{
+    
+    font-size: 18px;
+    line-height: 180%;
+    color: #969BA0;;
+}
