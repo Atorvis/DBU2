@@ -1131,6 +1131,7 @@ footer .copyright p
     .work-box ul li .content img
     {
         height: 380px;
+        width: 92%;
     }
     .work-box ul li .content .fitbg
     {
@@ -1321,5 +1322,28 @@ footer .copyright p
     .team .work-box ul li .title1 h2
     {
         width: 150px;
+    }
+}
+
+@media (max-width: 360px){
+    *
+    {
+        max-width: 360px;
+    }
+    .whatwedo .work-box ul li
+    {
+        width: 155px;
+    }
+    .trusted .work-box ul li
+    {
+        width: 145px;
+    }
+    .featured .work-box ul li
+    {
+        width: 135px;
+    }
+    .team .work-box ul li
+    {
+        width: 135px;
     }
 }
