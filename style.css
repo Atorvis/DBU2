@@ -1090,9 +1090,33 @@ footer .copyright p
     {
         top: 51px;
     }
+    .building .box
+    {
+        margin-top: 100px;
+    }
+    .building {
+        padding-top: 8rem;
+    }
+    .building ul li
+    {
+        padding: 0px;
+        padding-right: 14px;
+    }
+    .building h1 {
+        font-size: 37px;
+    }
     .building p {
         padding: 50px 0 25px 0px;
-        width: 98%;
+        width: 100%;
+    }
+    .building ul li h2
+    {
+        font-size: 35px;
+    }
+    .building ul li h3
+    {
+        font-size: 14px;
+        width: 103px;
     }
     .work-box ul li
     {
@@ -1119,14 +1143,22 @@ footer .copyright p
         margin: 0px;
     }
     .work, .work1 {
-        width: 339px;
+        width: 315px;
         height: 224px;
+    }
+    .View-all
+    {
+        left: calc(35% - 185px/2);
     }
     .trusted .work-box ul li
     {
         width: 156px;
         height: 72px;
         margin: 20px 5px 20px 0px;
+    }
+    .trusted .great h2, .featured .great h2
+    {
+        font-size: 34px;
     }
     .social-media ul li a
     {
