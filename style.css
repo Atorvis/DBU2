@@ -1224,6 +1224,10 @@ footer .copyright p
         font-size: 15px;
         margin-right: 5px;
     }
+    footer h2
+    {
+        font-size: 25px;
+    }
     .featured .great p
     {
         width: 338px;
@@ -1277,5 +1281,45 @@ footer .copyright p
     {
         margin-top: 368px;
         left: 140px;
+    }
+
+    .explore .row .col-sm-6 img,
+    .explore .row .col-sm-6 h2,
+    .explore .row .col-sm-6 h3
+    {
+        margin-left: 80px;
+    }
+    .explore .row .col-sm-6 p {
+        width: 364px;
+        padding-left: 40px;
+        padding-top: 50px;
+    }
+
+    .whatwedo1 .work-box ul li
+    {
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 20px;
+        height: 365px;
+    }
+    .whatwedo1 .work-box .title1 p
+    {
+        width: 290px;
+    }
+
+    .team .work-box ul li
+    {
+        width: 142px;
+    margin: 10px;
+    height: 251px;
+    }
+    .team .work-box ul li .content img
+    {
+        width: 150px;
+    height: 165px;
+    }
+    .team .work-box ul li .title1 h2
+    {
+        width: 150px;
     }
 }
