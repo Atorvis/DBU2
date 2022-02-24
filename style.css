@@ -78,10 +78,14 @@ header ul li a
 /*Background*/
 .explore
 {
-    background-image: url('vector/Background.png');
+    background-image: url('vector/bg.png');
     overflow: hidden;
     max-width: 100%;
     height: auto;
+}
+.bg
+{
+    background-image: url('vector/Background.png');
 }
 /*
 section .color
@@ -151,6 +155,7 @@ section .color:nth-child(3)
     color: #101010;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -271,7 +276,7 @@ section .color:nth-child(3)
     margin-top: 300px;
     background-image: url('vector/Group 9311.png');
     width: 1349px;
-    height: 672px;
+    height: auto;
 }
 
 .whatwedo .todo h2
@@ -620,7 +625,7 @@ footer .copyright p
 {
     position: relative;
     width: 100%;
-    height: 665px;
+    height: auto;
     color: #ffffff;
     padding-top: 10rem;
     font-family: 'Nunito Sans', sans-serif;
@@ -715,7 +720,7 @@ footer .copyright p
     margin-top: 160px;
     background-image: url('vector/bg.png');
     width: 1349px;
-    height: 1000px;
+    height: auto;
 }
 
 .whatwedo1 .todo h2
@@ -906,4 +911,284 @@ footer .copyright p
     font-size: 18px;
     line-height: 180%;
     color: #969BA0;;
+}
+
+
+
+@media (max-width: 720px){
+    *
+    {
+        max-width: 720px;
+    }
+    header,
+    header .sticky
+    {
+        padding: 20px 0px;
+        z-index: 1000;
+    }
+    .menu
+    {
+        position: fixed;
+        top: 75px;
+        left: 120%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 50vh;
+        background: #ffffff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0,0,0,0.2);
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .menu.active
+    {
+        left: 0;
+        height: 50vh;
+    }
+
+    header ul li a
+    {
+        color: #111111;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 55px;
+    }
+
+    .toggle
+    {
+        width: 40px;
+        height: 40px;
+        background-image: url('vector/hamburger-menu.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active
+    {
+        background-image: url('vector/close.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+
+    .bg
+    {
+        background-image: url('vector/bg.png');
+    }
+
+    .whatwedo ul li
+    {
+        width: 240px;
+    }
+    .trusted ul li
+    {
+        width: 238px;
+    }
+    .clients
+    {
+        padding: 5rem;
+        padding-left: 3rem;
+    }
+    .clients p
+    {
+        width: 630px;
+    }
+    .clients h4,
+    .clients h3
+    {
+        left: 170px;
+    }
+    .pagination
+    {
+        right: 50px;
+    }
+    .social-media ul
+    {
+        left: 0;
+    }
+    footer .icon {
+        left: 125px;
+        margin-top: 17px;
+    }
+
+    .crafting p
+    {
+        width: 370px;
+        left: 160px;
+    }
+    .crafting ul li a
+    {
+        margin-right: 35px;
+    }
+
+    .building
+    {
+        padding-top: 15rem;
+    }
+    .building h1{
+        font-size: 56px;
+    }
+    .building p
+    {
+        padding: 50px 0 25px 90px;
+        width: 84%;
+    }
+    .featured ul li
+    {
+        width: 238px;
+    }
+
+    .explore .row .col-sm-6 img
+    {
+        height: 272px;
+        width: 60%;
+    }
+    .explore .row .col-sm-6 p
+    {
+        width: 340px;
+    }
+
+    .team ul li
+    {
+        width: 238px;
+        margin: 10px;
+    }
+    .team ul li .content img
+    {
+        width: 238px;
+        height: 310px;
+    }
+    .team ul li .title1
+    {
+        display: contents;
+    }
+}
+
+
+
+@media (max-width: 375px){
+    *
+    {
+        max-width: 375px;
+    }
+    header,
+    header .sticky
+    {
+        padding: 5px 0px;
+        z-index: 1000;
+    }
+    .menu
+    {
+        position: fixed;
+        top: 51px;
+        left: 120%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 50vh;
+        background: #ffffff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0,0,0,0.2);
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+
+    .menu.active
+    {
+        left: 0;
+        height: 80vh;
+    }
+
+    header ul li a
+    {
+        color: #111111;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 55px;
+    }
+
+    .toggle
+    {
+        width: 40px;
+        height: 40px;
+        background-image: url('vector/hamburger-menu.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active
+    {
+        background-image: url('vector/close.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .building p {
+        padding: 50px 0 25px 0px;
+        width: 98%;
+    }
+    .container ul li
+    {
+        width: 354px;
+        height: 530px;
+        margin: 20px 0px 0px 0px;
+    }
+    .container ul li .content img
+    {
+        height: 380px;
+    }
+    .whatwedo ul li
+    {
+        list-style: none;
+        float: left;
+        width: 175px;
+        height: 390px;
+        margin: 0px;
+        background: none;
+    }
+    .work, .work1 {
+        width: 339px;
+        height: 224px;
+    }
+    .trusted ul li
+    {
+        width: 155px;
+        height: 80px;
+        margin-right: 15px;
+    }
+    .trusted ul li .fitbg3
+    {
+        left: 39px;
+        top: 12px;
+    }
+    .social-media ul li a
+    {
+        font-size: 15px;
+        margin: 0;
+    }
+    .whatwedo ul li .title
+    {
+        margin-left: 20px;
+    }
+    .whatwedo .title img
+    {
+        margin-left: -17px;
+    }
+    .whatwedo ul li .title h2
+    {
+        font-size: 14px;
+        margin-left: -15px;
+    }
+    .whatwedo ul li .title h3
+    {
+        font-size: 14px;
+    }
 }
