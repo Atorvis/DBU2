@@ -242,7 +242,6 @@ section .color:nth-child(3)
 .work-box ul li .content .fitbg
 {
     width: 83.2%;
-    position: relative;
     height: 415px;
     margin: 39px;
     left: 50px;
@@ -376,8 +375,11 @@ section .color:nth-child(3)
     height: 60px;
     width: 80px;
     position: absolute;
-    left: 74px;
-    top: 19px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
     
 }
 
@@ -433,7 +435,7 @@ section .color:nth-child(3)
     font-size: 18px;
     line-height: 180%;
     color: #101010;
-    padding-top: 265px;
+    margin-top: 265px;
     left: 325px;
 }
 
@@ -444,7 +446,7 @@ section .color:nth-child(3)
     color: #6E7377;
     position: absolute;
     width: 213px;
-    padding-top: 290px;
+    margin-top: 290px;
     left: 325px;
 }
 
@@ -818,7 +820,7 @@ footer .copyright p
     font-size: 16px;
     position: relative;
     display: inline-block;
-    margin: 0 25px;
+    margin-right: 50px;
     color: #6E7377;
     text-decoration: none;
 }
@@ -853,7 +855,7 @@ footer .copyright p
     color: #6E7377;
 }
 
-.featured ul li
+.featured .work-box ul li
 {
     width: 251px;
     text-align: center;
@@ -871,7 +873,7 @@ footer .copyright p
     color: #99A0AE;
 }
 
-.container .featured ul
+.featured .work-box ul
 {
     padding-left: 40px;
     padding-top: 40px;
@@ -1098,18 +1100,23 @@ footer .copyright p
         height: 530px;
         margin: 20px 0px 0px 0px;
     }
+    .work-box ul li .title p
+    {
+        width: 270px;
+    }
     .work-box ul li .content img
     {
         height: 380px;
     }
+    .work-box ul li .content .fitbg
+    {
+        height: 340px;
+    }
     .whatwedo .work-box ul li
     {
-        list-style: none;
-        float: left;
-        width: 175px;
+        width: 162px;
         height: 390px;
         margin: 0px;
-        background: none;
     }
     .work, .work1 {
         width: 339px;
@@ -1117,14 +1124,9 @@ footer .copyright p
     }
     .trusted .work-box ul li
     {
-        width: 155px;
-        height: 80px;
-        margin-right: 15px;
-    }
-    .trusted ul li .fitbg3
-    {
-        left: 39px;
-        top: 12px;
+        width: 156px;
+        height: 72px;
+        margin: 20px 5px 20px 0px;
     }
     .social-media ul li a
     {
@@ -1147,5 +1149,101 @@ footer .copyright p
     .whatwedo .work-box ul li .title h3
     {
         font-size: 14px;
+    }
+    .crafting h2
+    {
+        font-size: 75px;
+    }
+    .crafting p 
+    {
+        width: 348px;
+        left: 0;
+    }
+    .crafting ul li a {
+        margin: 0;
+        margin-right: 25px;
+    }
+
+    footer {
+        height: 355px;
+        padding: 30px 20px 30px 20px;
+    }
+    footer h1
+    {
+        height: 50px;
+        font-size: 50px;
+    }
+    footer hr
+    {
+        top: 110px;
+    }
+    footer .copyright p
+    {
+        top: 125px;
+    }
+    footer .icon 
+    {
+        left: 15px;
+        margin-top: 30px;
+    }
+    footer .icon i
+    {
+        padding: 10px;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .featured .great p
+    {
+        width: 338px;
+        font-size: 18px;
+    }
+
+    .featured .work-box ul li
+    {
+        width: 142px;
+        margin: 0px;
+        font-size: 15px;
+        height: 70px;
+        left: -20px;
+    }
+
+    .clients {
+        padding: 0rem;
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+    .clients h2
+    {
+        font-size: 30px;
+    }
+    .clients p
+    {
+        padding-top: 50px;
+        width: 332px;
+        font-size: 18px;
+    }
+    .clients .fitbg4 {
+        width: 30px;
+        height: 26px;
+    }
+    .clients .fitbg5
+    {
+        margin-top: 325px;
+    }
+
+    .pagination
+    {
+        right: 40%;
+        margin-top: 450px;
+    }
+    .clients h3
+    {
+        margin-top: 335px;
+        left: 140px;
+    }
+    .clients h4
+    {
+        margin-top: 368px;
+        left: 140px;
     }
 }
