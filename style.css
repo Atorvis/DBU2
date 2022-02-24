@@ -161,9 +161,11 @@ section .color:nth-child(3)
 
 /*Our work section*/
 
-.container
+.work-box
 {
-    margin: 60px;
+    margin: 13px;
+    margin-top: 55px;
+    margin-bottom: 55px;
     overflow: hidden;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -174,6 +176,7 @@ section .color:nth-child(3)
     height: 170px;
     font-family: 'Nunito Sans', sans-serif;
     margin-left: 15px;
+    margin-top: 40px;
 }
 
 .work h2, .work1 h2
@@ -193,13 +196,13 @@ section .color:nth-child(3)
     line-height: 180%;
 }
 
-.container ul
+.work-box ul
 {
     padding: 0;
     margin: 0;
 }
 
-.container ul li
+.work-box ul li
 {
     list-style: none;
     float: left;
@@ -209,14 +212,14 @@ section .color:nth-child(3)
     margin: 20px 10px 0px 10px;
 }
 
-.container ul li .title
+.work-box ul li .title
 {
     font-family: 'Nunito Sans', sans-serif;
     margin-left: 40px;
     margin-top: 40px;
 }
 
-.container ul li .title h2
+.work-box ul li .title h2
 {
     font-weight: bold;
     font-size: 32px;
@@ -224,28 +227,19 @@ section .color:nth-child(3)
    
 }
 
-.container ul li .title p
+.work-box ul li .title p
 {
     font-size: 16px;
     color: #6E7377;
 }
 
-.container ul li .content img
+.work-box ul li .content img
 {
     width: 100%;
     height: 454px;
 }
 
-.container ul li .content .fitbg
-{
-    width: 83.2%;
-    position: relative;
-    height: 415px;
-    margin: 39px;
-    left: 50px;
-}
-
-.container ul li .content .fitbg1
+.work-box ul li .content .fitbg
 {
     width: 83.2%;
     position: relative;
@@ -265,7 +259,7 @@ section .color:nth-child(3)
     display: flex;
     align-items: center;
     padding: 16px 56px;
-    left: calc(50% - 185px/2);
+    left: calc(45% - 185px/2);
 }
 
 
@@ -287,29 +281,29 @@ section .color:nth-child(3)
     font-size: 48px;
     padding: 100px 0 20px 22px;
 }
-.whatwedo ul li .title 
+.whatwedo .work-box ul li .title 
 {
     margin-top: -327px;
 }
 
-.whatwedo ul li
+.whatwedo .work-box ul li
 {
     list-style: none;
     float: left;
-    width: 261px;
+    width: 254px;
     height: 390px;
     margin: 0px 0px 0px 18px;
     background: none;
 }
 
-.whatwedo .title img
+.whatwedo .work-box .title img
 {
     height: 50px;
     width: 50px;
     margin-left: -38px;
 }
 
-.whatwedo ul li .title h2
+.whatwedo .work-box ul li .title h2
 {
     font-size: 18px;
     color: #FFFFFF;
@@ -317,7 +311,7 @@ section .color:nth-child(3)
     margin-top: 35px;
     margin-left: -38px;
 }
-.whatwedo ul li .title h3
+.whatwedo .work-box ul li .title h3
 {
     font-weight: normal;
     font-size: 18px;
@@ -328,7 +322,7 @@ section .color:nth-child(3)
     width: 210px;
 }
 
-.whatwedo .vertical-line
+.whatwedo .work-box .vertical-line
 {
     width: 1px;
     margin-top: 174px;
@@ -348,11 +342,11 @@ section .color:nth-child(3)
 }
 
 
-.trusted ul li
+.trusted .work-box ul li
 {
     list-style: none;
     float: left;
-    width: 259px;
+    width: 252px;
     height: 123px;
     left: 2%;
     position: relative;
@@ -361,7 +355,7 @@ section .color:nth-child(3)
     border: 1px solid #DFE1EC;
 }
 
-.trusted ul li .fitbg2
+.trusted .work-box ul li .fitbg2
 {
     height: 33px;
     width: 130px;
@@ -377,12 +371,10 @@ section .color:nth-child(3)
     justify-content: center;
 }
 
-.trusted ul li .fitbg3
+.trusted .work-box ul li .fitbg3
 {
     height: 60px;
     width: 80px;
-    
-
     position: absolute;
     left: 74px;
     top: 19px;
@@ -671,46 +663,46 @@ footer .copyright p
     color: #979797;
 }
 
-.team ul li
+.team .work-box ul li
 {
     list-style: none;
     float: left;
-    width: 328px;
+    width: 318px;
     height: 455px;
     background: none; 
     margin: 20px 0px 0px 44px;
 }
 
-.team ul li .content img
+.team .work-box ul li .content img
 {
     width: 328px;
     height: 405px;
 }
-.team ul li .title1
+.team .work-box ul li .title1
 {
     display: flex;
     padding: 15px 0px 0px 0px;
 }
 
-.team ul li .title1 h2
+.team .work-box ul li .title1 h2
 {
     font-weight: bold;
     font-size: 18px;
     line-height: 18px;
     margin-right: 5px;
 }
-.team ul li .title1 span
+.team .work-box ul li .title1 span
 {
     font-weight: 500;
     font-size: 18px;
     line-height: 18px;
 }
 
-.team ul li .red img
+.team .work-box ul li .red img
 {
     background: linear-gradient(157.88deg, #F9F7F6 14.45%, #EFEAE6 99.51%) !important;
 }
-.team ul li .grey img
+.team.work-box ul li .grey img
 {
     background: linear-gradient(157.88deg, #F6F6F9 14.45%, #E6E7EF 99.51%) !important;
 }
@@ -731,29 +723,29 @@ footer .copyright p
     font-size: 48px;
     padding: 100px 0 20px 22px;
 }
-.whatwedo1 ul li .title 
+.whatwedo1 .work-box ul li .title 
 {
     margin-top: -327px;
 }
 
-.whatwedo1 ul li
+.whatwedo1 .work-box ul li
 {
     list-style: none;
     float: left;
-    width: 537px;
+    width: 525px;
     height: 333px;
     margin: 0px 0px 20px 20px;
     padding: 35px;
     background: rgba(16, 16, 16, 0.44);;
 }
 
-.whatwedo1 .title1 img
+.whatwedo1 .work-box .title1 img
 {
     height: 50px;
     width: 50px;
 }
 
-.whatwedo1 .title1 h2
+.whatwedo1 .work-box .title1 h2
 {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
@@ -763,7 +755,7 @@ footer .copyright p
     color: #FFFFFF;
     margin-top: 25px;
 }
-.whatwedo1 .title1 p
+.whatwedo1 .work-box .title1 p
 {
     font-family: 'Barlow', sans-serif;
     font-style: normal;
@@ -915,10 +907,10 @@ footer .copyright p
 
 
 
-@media (max-width: 720px){
+@media (max-width: 864px){
     *
     {
-        max-width: 720px;
+        max-width: 864px;
     }
     header
     {
@@ -979,14 +971,20 @@ footer .copyright p
     {
         background-image: url('vector/bg.png');
     }
-
-    .whatwedo ul li
+    .work-box ul li
     {
-        width: 240px;
+        margin: 20px 10px 0px 80px;
     }
-    .trusted ul li
+
+    .whatwedo .work-box ul li
+    {
+        width: 235px;
+        margin: 0px 70px 0px 30px;
+    }
+    .trusted .work-box ul li
     {
         width: 238px;
+        margin: 20px 20px 20px 60px;
     }
     .clients
     {
@@ -1017,7 +1015,7 @@ footer .copyright p
 
     .crafting p
     {
-        width: 370px;
+        width: 560px;
         left: 160px;
     }
     .crafting ul li a
@@ -1037,9 +1035,15 @@ footer .copyright p
         padding: 50px 0 25px 90px;
         width: 84%;
     }
-    .featured ul li
+
+    .featured .great p
     {
-        width: 238px;
+        width: 750px;
+    }
+    .featured .work-box ul li
+    {
+        width: 265px;
+        margin: 20px 10px 0px 30px;
     }
 
     .explore .row .col-sm-6 img
@@ -1052,17 +1056,17 @@ footer .copyright p
         width: 340px;
     }
 
-    .team ul li
+    .team .work-box ul li
     {
-        width: 238px;
+        width: 314px;
         margin: 10px;
     }
-    .team ul li .content img
+    .team .work-box ul li .content img
     {
         width: 238px;
         height: 310px;
     }
-    .team ul li .title1
+    .team .work-box ul li .title1
     {
         display: contents;
     }
@@ -1088,17 +1092,17 @@ footer .copyright p
         padding: 50px 0 25px 0px;
         width: 98%;
     }
-    .container ul li
+    .work-box ul li
     {
         width: 354px;
         height: 530px;
         margin: 20px 0px 0px 0px;
     }
-    .container ul li .content img
+    .work-box ul li .content img
     {
         height: 380px;
     }
-    .whatwedo ul li
+    .whatwedo .work-box ul li
     {
         list-style: none;
         float: left;
@@ -1111,7 +1115,7 @@ footer .copyright p
         width: 339px;
         height: 224px;
     }
-    .trusted ul li
+    .trusted .work-box ul li
     {
         width: 155px;
         height: 80px;
@@ -1127,20 +1131,20 @@ footer .copyright p
         font-size: 15px;
         margin: 0;
     }
-    .whatwedo ul li .title
+    .whatwedo .work-box ul li .title
     {
         margin-left: 20px;
     }
-    .whatwedo .title img
+    .whatwedo .work-box .title img
     {
         margin-left: -17px;
     }
-    .whatwedo ul li .title h2
+    .whatwedo .work-box ul li .title h2
     {
         font-size: 14px;
         margin-left: -15px;
     }
-    .whatwedo ul li .title h3
+    .whatwedo .work-box ul li .title h3
     {
         font-size: 14px;
     }
