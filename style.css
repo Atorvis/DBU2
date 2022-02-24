@@ -920,8 +920,7 @@ footer .copyright p
     {
         max-width: 720px;
     }
-    header,
-    header .sticky
+    header
     {
         padding: 20px 0px;
         z-index: 1000;
@@ -935,7 +934,7 @@ footer .copyright p
         padding: 100px 50px;
         text-align: center;
         width: 100%;
-        height: 50vh;
+        height: auto;
         background: #ffffff;
         transition: 0.5s;
         z-index: 999;
@@ -946,7 +945,7 @@ footer .copyright p
     .menu.active
     {
         left: 0;
-        height: 50vh;
+        height: auto;
     }
 
     header ul li a
@@ -1076,60 +1075,14 @@ footer .copyright p
     {
         max-width: 375px;
     }
-    header,
-    header .sticky
+    header
     {
         padding: 5px 0px;
         z-index: 1000;
     }
     .menu
     {
-        position: fixed;
         top: 51px;
-        left: 120%;
-        display: block;
-        padding: 100px 50px;
-        text-align: center;
-        width: 100%;
-        height: 50vh;
-        background: #ffffff;
-        transition: 0.5s;
-        z-index: 999;
-        border-top: 1px solid rgba(0,0,0,0.2);
-        border-bottom: 1px solid rgba(0,0,0,0.2);
-    }
-
-    .menu.active
-    {
-        left: 0;
-        height: 80vh;
-    }
-
-    header ul li a
-    {
-        color: #111111;
-        font-size: 40px;
-        margin-top: 10px;
-        margin-bottom: 55px;
-    }
-
-    .toggle
-    {
-        width: 40px;
-        height: 40px;
-        background-image: url('vector/hamburger-menu.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 30px;
-        cursor: pointer;
-    }
-    .toggle.active
-    {
-        background-image: url('vector/close.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 30px;
-        cursor: pointer;
     }
     .building p {
         padding: 50px 0 25px 0px;
