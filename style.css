@@ -1074,12 +1074,10 @@ footer .copyright p
     }
 }
 
-
-
-@media (max-width: 375px){
+@media (max-width: 414px){
     *
     {
-        max-width: 375px;
+        max-width: 414px;
     }
     header
     {
@@ -1090,111 +1088,72 @@ footer .copyright p
     {
         top: 51px;
     }
-    .building .box
+    .work-box ul li {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .whatwedo .work-box ul li {
+        width: 168px;
+        margin: 0px 14px 25px 0px;
+    }
+
+    .whatwedo .work-box ul li .title h3
     {
-        margin-top: 100px;
+        width: 158px;
     }
-    .building {
-        padding-top: 8rem;
-    }
-    .building ul li
+
+    .trusted .brands h2
     {
-        padding: 0px;
-        padding-right: 14px;
+        font-size: 40px;
     }
-    .building h1 {
-        font-size: 37px;
+
+    .trusted .work-box ul li
+    {
+        width: 176px;
+        margin: 0px 0px 20px 0px;
+        height: 90px;
     }
-    .building p {
-        padding: 50px 0 25px 0px;
-        width: 100%;
+    .clients {
+        padding: 3rem;
+        padding-left: 1rem;
     }
-    .building ul li h2
+    .clients h2
     {
         font-size: 35px;
     }
-    .building ul li h3
+    .clients p
     {
-        font-size: 14px;
-        width: 103px;
+        padding-top: 55px;
+        width: 368px;
     }
-    .work-box ul li
+    .clients .fitbg5
     {
-        width: 354px;
-        height: 530px;
-        margin: 20px 0px 0px 0px;
+        margin-top: 360px;
     }
-    .work-box ul li .title p
+    .clients h3
     {
-        width: 270px;
+        margin-top: 370px;
+        left: 145px;
     }
-    .work-box ul li .content img
+    .clients h4
     {
-        height: 380px;
-        width: 92%;
-    }
-    .work-box ul li .content .fitbg
-    {
-        height: 340px;
-    }
-    .whatwedo .work-box ul li
-    {
-        width: 162px;
-        height: 390px;
-        margin: 0px;
-    }
-    .work, .work1 {
-        width: 315px;
-        height: 224px;
+        margin-top: 400px;
+        left: 145px;
     }
     .View-all
     {
         left: calc(35% - 185px/2);
     }
-    .trusted .work-box ul li
+    .pagination
     {
-        width: 156px;
-        height: 72px;
-        margin: 20px 5px 20px 0px;
+        right: 40%;
+        margin-top: 450px;
     }
-    .trusted .great h2, .featured .great h2
-    {
-        font-size: 34px;
-    }
+
     .social-media ul li a
     {
         font-size: 15px;
         margin: 0;
-    }
-    .whatwedo .work-box ul li .title
-    {
-        margin-left: 20px;
-    }
-    .whatwedo .work-box .title img
-    {
-        margin-left: -17px;
-    }
-    .whatwedo .work-box ul li .title h2
-    {
-        font-size: 14px;
-        margin-left: -15px;
-    }
-    .whatwedo .work-box ul li .title h3
-    {
-        font-size: 14px;
-    }
-    .crafting h2
-    {
-        font-size: 75px;
-    }
-    .crafting p 
-    {
-        width: 348px;
-        left: 0;
-    }
-    .crafting ul li a {
-        margin: 0;
-        margin-right: 25px;
     }
 
     footer {
@@ -1229,6 +1188,192 @@ footer .copyright p
     {
         font-size: 25px;
     }
+    .crafting h2
+    {
+        font-size: 60px;
+    }
+    .crafting p {
+        width: 390px;
+        left: 0;
+    }
+    .building h1 {
+        font-size: 35px;
+    }
+    .building p {
+        padding: 50px 0 25px 20px;
+        width: 96%;
+    }
+    .building ul li {
+        padding: 12px;
+    }
+    .building ul li h2
+    {
+        font-size: 35px;
+    }
+    .trusted .great h2, .featured .great h2
+    {
+        font-size: 35px;
+    }
+    .featured .great p {
+        width: 403px;
+    }
+    .featured .work-box ul
+    {
+        padding-left: 15px;
+    }
+    .featured .work-box ul li {
+        width: 170px;
+        margin: 0;
+        height: 100px;
+    }
+    .explore .row .col-sm-6 p {
+        width: 380px;
+        padding-top: 45px;
+        padding-left: 51px;
+    }
+    .whatwedo1 .work-box ul li
+    {
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 20px;
+        height: 365px;
+    }
+    .whatwedo1 .work-box .title1 p
+    {
+        width: 290px;
+    }
+    .team .work-box ul li
+    {
+        width: 142px;
+        margin: 10px;
+        height: 251px;
+    }
+    .team .work-box ul li .content img
+    {
+        width: 150px;
+        height: 165px;
+    }
+    .team .work-box ul li .title1 h2
+    {
+        width: 150px;
+    }
+    .work h2, .work1 h2
+    {
+        font-size: 40px;
+    }
+    .work p, .work1 p
+    {
+        width: 378px;
+    }
+
+}
+
+@media (max-width: 375px){
+    *
+    {
+        max-width: 375px;
+    }
+    .building .box
+    {
+        margin-top: 100px;
+    }
+    .building {
+        padding-top: 8rem;
+    }
+    .building ul li
+    {
+        padding: 0px;
+        padding-right: 14px;
+    }
+    .building h1 {
+        font-size: 37px;
+    }
+    .building p {
+        padding: 50px 0 25px 0px;
+        width: 100%;
+    }
+    .building ul li h2
+    {
+        font-size: 35px;
+    }
+    .building ul li h3
+    {
+        font-size: 14px;
+        width: 105px;
+    }
+    .work-box ul li
+    {
+        width: 354px;
+        height: 530px;
+        margin: 20px 0px 0px 0px;
+    }
+    .work-box ul li .title p
+    {
+        width: 270px;
+    }
+    .work-box ul li .content img
+    {
+        height: 380px;
+        width: 92%;
+    }
+    .work-box ul li .content .fitbg
+    {
+        height: 340px;
+    }
+    .whatwedo .work-box ul li
+    {
+        width: 162px;
+        height: 390px;
+        margin: 0px;
+    }
+    .work, .work1 {
+        width: 315px;
+        height: 224px;
+    }
+    .work p, .work1 p {
+        width: 338px;
+    }
+    .trusted .work-box ul li
+    {
+        width: 156px;
+        height: 72px;
+        margin: 20px 5px 20px 0px;
+    }
+    .trusted .great h2, .featured .great h2
+    {
+        font-size: 34px;
+    }
+    .whatwedo .work-box ul li .title
+    {
+        margin-left: 20px;
+    }
+    .whatwedo .work-box .title img
+    {
+        margin-left: -17px;
+    }
+    .whatwedo .work-box ul li .title h2
+    {
+        font-size: 14px;
+        margin-left: -15px;
+    }
+    .whatwedo .work-box ul li .title h3
+    {
+        font-size: 14px;
+    }
+    .crafting h2
+    {
+        font-size: 75px;
+    }
+    .crafting p 
+    {
+        width: 348px;
+        left: 0;
+    }
+    .crafting ul li a {
+        margin: 0;
+        margin-right: 25px;
+    }
+
     .featured .great p
     {
         width: 338px;
@@ -1311,13 +1456,13 @@ footer .copyright p
     .team .work-box ul li
     {
         width: 142px;
-    margin: 10px;
-    height: 251px;
+        margin: 10px;
+        height: 251px;
     }
     .team .work-box ul li .content img
     {
         width: 150px;
-    height: 165px;
+        height: 165px;
     }
     .team .work-box ul li .title1 h2
     {
@@ -1346,4 +1491,11 @@ footer .copyright p
     {
         width: 135px;
     }
+    .explore .row .col-sm-6 p
+    {
+        padding-left: 25px;
+    }
 }
+
+
+
