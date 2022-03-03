@@ -708,6 +708,14 @@ footer .copyright p
 {
     background: linear-gradient(157.88deg, #F6F6F9 14.45%, #E6E7EF 99.51%) !important;
 }
+.work-box ul li.blue
+{
+    background: linear-gradient(157.88deg, #2F2475 14.45%, #1F184E 99.51%) !important;
+}
+.work-box ul li.red1
+{
+    background: linear-gradient(157.88deg, #752455 14.45%, #561A3E 99.51%) !important;
+}
 
 .whatwedo1bg
 {
@@ -791,7 +799,7 @@ footer .copyright p
     font-size: 18px;
     line-height: 180%;
     color: #6E7377;
-    width: 515px;
+    width: 510px;
     height: 60px;
     margin: 35px 0 35px 0;
     left: 410px;
@@ -907,6 +915,97 @@ footer .copyright p
     color: #969BA0;;
 }
 
+/*Shop page*/
+.work-box ul li.shop-box .title h2
+{
+    color: #FFFFFF;
+}
+.work-box ul li.shop-box .title h3
+{
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    width: 96px;
+    height: 48px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 46px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+}
+.work-box .shop-box .title .shop
+{
+    margin-top: 50px;
+}
+
+.work-box .shop-box .title .shop p
+{
+    display: block;
+    flex-direction: column;
+    color: #9F9F9F;
+    padding: 5px;
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 130%;
+}
+.work-box .shop-box .title .shop i
+{
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+}
+
+.work-box ul li.shop-box .title .content img
+{
+    margin-top: -370px;
+}
+.work-box ul li.shop-box .title .shop-bottom-box
+{
+    margin-top: 165px;
+    position: relative;
+    display: flex;
+}
+
+.work-box ul li.shop-box .title .shop-bottom-box p
+{
+    background: rgba(255, 255, 255, 0.1);
+    width: 34px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.work-box ul li.shop-box .title .shop-bottom-box p img
+{
+    height: 22px;
+}
+
+.kit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #101010;
+}
+
+.kit p img
+{
+    margin: 0px 12px;
+}
 
 
 @media (max-width: 864px){
