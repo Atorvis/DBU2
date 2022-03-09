@@ -1266,6 +1266,8 @@ footer .copyright p
     width: 100%;
     height: auto;
     background: #F4F7FA;
+    display: flex;
+    flex-direction: column;
 }
 
 .next-project
@@ -1487,6 +1489,20 @@ footer .copyright p
     {
         width: 530px;
     }
+    .web-ui-row1, .web-ui-row2
+    {
+        flex-direction: column;
+    }
+    .web-ui-fourth
+    {
+        position: relative;
+        margin-left: 0;
+    }
+    .Spayee-box3
+    {
+        height: 415px;
+        display: flex;
+    }
 }
 
 @media (max-width: 414px){
@@ -1623,7 +1639,11 @@ footer .copyright p
     }
     .building ul li h2
     {
-        font-size: 35px;
+        font-size: 25px;
+    }
+    .building ul li h3
+    {
+        font-size: 14px;
     }
     .trusted .great h2, .featured .great h2
     {
@@ -1680,7 +1700,33 @@ footer .copyright p
     {
         width: 378px;
     }
-
+    .spayee-header img
+    {
+        display: none;
+    }
+    .team .Spayee-box
+    {
+        height: 416px;
+    }
+    .team .Spayee-box img
+    {
+        width: 386px;
+        height: 228px;
+        top: 22px;
+    }
+    .team .wireframes
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .web-ui-design
+    {
+        padding: 70px 15px 60px 15px;
+    }
+    .fitbg12 {
+        height: 435px;
+        width: 375px;
+    }
 }
 
 @media (max-width: 375px){
@@ -1882,6 +1928,32 @@ footer .copyright p
     .team .work-box ul li .title1 h2
     {
         width: 150px;
+    }
+    .building1 ul li h2 {
+        font-size: 24px;
+    }
+    .building1 ul li h3
+    {
+        width: 71px;
+    }
+    .team .Spayee-box img {
+        width: 351px;
+        height: 233px;
+    }
+    .team .wireframes img {
+        width: 350px;
+    }
+    .web-ui-design .web-ui-row1 .web-ui-first p
+    {
+        width: 340.12px;
+    }
+    .fitbg12
+    {
+        width: 335px;
+    }
+    .Spayee-box3
+    {
+        display: none;
     }
 }
 
