@@ -71,7 +71,7 @@ header ul li a
 {
     width: 140px;
     height: 31px;
-    left: 35px;
+    left: 60px;
     position: relative;
 }
 
@@ -178,6 +178,11 @@ section .color:nth-child(3)
     margin-left: 15px;
     margin-top: 40px;
 }
+.work3
+{
+    width: 600px;
+    margin-bottom: 105px;
+}
 
 .work h2, .work1 h2
 {
@@ -218,7 +223,10 @@ section .color:nth-child(3)
     margin-left: 40px;
     margin-top: 40px;
 }
-
+.work-box ul li .title a
+{
+    text-decoration: none;
+}
 .work-box ul li .title h2
 {
     font-weight: bold;
@@ -891,12 +899,17 @@ footer .copyright p
 {
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .building ul li
 {
-    padding: 30px;
+    position: relative;
+    list-style: none;
+    padding-right: 90px;
 }
 .building ul li h2
 {
@@ -1007,6 +1020,282 @@ footer .copyright p
     margin: 0px 12px;
 }
 
+/*Spayee page*/
+
+.spayee-header
+{
+    width: 100%;
+    height: 306px;
+    margin-top: 70px;
+    background: #2F2475;
+    color: #fff;
+    padding-top: 10px;
+    display: flex;
+}
+
+.spayee-header h1{
+    padding-left: 80px;
+    padding-top: 95px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+}
+.spayee-header p{
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 175px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.building1
+{
+    height: 0;
+    padding-top: 0;
+    margin-top: 125px;
+}
+.building1 ul
+{
+    background: #F4F7FA;
+    justify-content: space-around;
+    height: 158px;
+}
+.building1 ul li h2{
+    color: #101010;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.spayee-header img
+{
+    position: relative;
+    left: 35.9%;
+}
+
+.team .Spayee-box
+{
+    width: 100%;
+    height: 600px;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    background-color: #3A80FC;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .Spayee-box h2 img
+{
+    width: 40%;
+    height: 90px;
+    position: relative;
+    left: 30%;
+}
+.team .Spayee-box img
+{
+    width: 800px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+}
+
+.team .wireframes
+{
+    width: 100%;
+    height: auto;
+    background: #F4F7FA;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.team .wireframes .row
+{
+    padding-top: 0;
+}
+
+.team .wireframes img
+{
+    width: 426.04px;
+}
+
+.team .wireframes .row .col h3,
+.landing-page h3
+{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-left: 20px;
+    color: #101010;
+}
+
+.team .wireframes .fitbg6
+{
+    height: 838.45px;
+    margin-top: 60px;
+}
+.team .wireframes .fitbg7
+{
+    height: 235.89px;
+}
+.team .wireframes .fitbg8
+{
+    height: 797px;
+}
+.team .Spayee-box1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.team .Spayee-box1 img
+{
+    width: 40%;
+    height: 300px;
+}
+
+.team .Spayee-box2 .row
+{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.fitbg9{
+    height: 315px;
+    margin-bottom: 15px;
+}
+
+.fitbg10 {
+    height: 325px;
+}
+
+.Spayee-box3
+{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.web-ui-design
+{
+    background: #1F184E;
+}
+.web-ui-design .row
+{
+    padding: 60px 25px 60px 50px;
+}
+.web-ui-design .row .col h1
+{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #EFF1F4;
+}
+.web-ui-design .row .col p
+{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 180%;
+    color: #6E7377;
+    width: 346.12px;
+    height: 127px;
+}
+.web-ui-design .row .col .fitbg11
+{
+    height: 150px;
+    margin-top: 40px;
+}
+.web-ui-design .row .col .fitbg12
+{
+    height: 485px;
+    width: 525px;
+}
+
+.web-ui-design .row .col .web-ui-blue
+{
+    height: 220px;
+    width: 140px;
+    background: #377dff;
+    color: #F4F7FA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.web-ui-design .row .col .web-ui-black
+{
+    height: 220px;
+    width: 140px;
+    background: #1e2022;
+    color: #F4F7FA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.web-ui-second
+{
+    margin-top: 280px;
+}
+.web-ui-fourth
+{
+    display: flex;
+}
+
+
+.landing-page
+{
+    width: 100%;
+    height: auto;
+    background: #F4F7FA;
+}
+
+.next-project
+{
+    width: 100%;
+    height: 237px;
+    background: #F4F7FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.next-project h3
+{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0.26em;
+}
+.next-project h1
+{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+}
+.next-project i
+{
+    font-size: 30px;
+}
 
 @media (max-width: 864px){
     *
