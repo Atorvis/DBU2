@@ -990,7 +990,7 @@ footer .copyright p
     letter-spacing: -0.01em;
 }
 .project-header p{
-    position: absolute;
+    position: relative;
     padding-left: 80px;
     font-family: 'Barlow', sans-serif;
     font-style: normal;
@@ -1247,6 +1247,17 @@ footer .copyright p
 {
     font-size: 30px;
     color: #101010;
+}
+.player-list ul{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+.player-list ul li
+{
+    list-style: none;
+    width: 522px;
+    margin: 20px 0px 0px 20px;
 }
 
 
