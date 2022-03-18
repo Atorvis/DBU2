@@ -1248,18 +1248,32 @@ footer .copyright p
     font-size: 30px;
     color: #101010;
 }
-.player-list ul{
+.player-list ul,
+.print-ads-list ul{
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
 }
-.player-list ul li
+.player-list ul li,
+.print-ads-list ul li
 {
     list-style: none;
     width: 522px;
     margin: 20px 0px 0px 20px;
 }
 
+.logofolio-bottom p
+{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    text-align: center;
+    color: #383C98;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 
 @media (max-width: 864px){
     *
